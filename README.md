@@ -8,6 +8,7 @@ I mean anyways the user is going to scroll such a cell to view the entire conten
 
 :unamused::tired_face::expressionless:
 
+## Solution
 Here is a piece of code(an extension for UITableView) which can make it. Just call the UITableView's func "makeSelectedCellVisible()" and pass the selected cells indexpath as a parameter. And that's it! Just call this code wherever your UITableView's selection logic lies (either UITableViewDelegate's didSelectRow fun, an IBAction or any custom target function code you have).
 
 That's all to make it work! :trollface: :see_no_evil:
