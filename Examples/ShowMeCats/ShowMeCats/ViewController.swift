@@ -74,6 +74,7 @@ extension ViewController: UITableViewDataSource, UITableViewDelegate {
         else {
             selectedCats.append(indexPath)
         }
+       //here's where the auto scroll happens!
         tableView.makeSelectedCellVisible(for: indexPath)
         updateCellAtIndexPath(for: indexPath)
     }
