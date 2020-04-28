@@ -1,4 +1,4 @@
-# AutoScrollUITableView
+# UITableView+AutoScroll
 A UITableView extension which automatically scrolls a UITableView to show a cell clicked by user in-case the selected cell's complete visible area is either below or above the UITableView's visible area.
 
 ## Motivation
